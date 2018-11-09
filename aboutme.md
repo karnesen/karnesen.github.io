@@ -4,6 +4,8 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
+yeet 
+
 ```{r fig.height=2.5}
 m <- leaflet() %>% setView(lng = -71.0589, lat = 42.3601, zoom = 12)
 m %>% addTiles()
