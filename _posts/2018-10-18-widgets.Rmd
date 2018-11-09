@@ -4,6 +4,7 @@ title: My first shiny post!
 ---
 
 ye
+library(leaflet)
 
 ```{r fig.height=2.5}
 m <- leaflet() %>% setView(lng = -71.0589, lat = 42.3601, zoom = 12)
