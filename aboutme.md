@@ -4,11 +4,11 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-yeet 
+yeet yeet
 
-```{r fig.height=2.5}
-m <- leaflet() %>% setView(lng = -71.0589, lat = 42.3601, zoom = 12)
-m %>% addTiles()
+```{r}
+library(leaflet)
+leaflet() %>% addTiles() %>% setView(10, 51, zoom = 8)
 ```
 
 My name is Inigo Montoya. I have the following qualities:
