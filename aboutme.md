@@ -4,6 +4,10 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
+{r}
+library(leaflet)
+leaflet() %>% addTiles() %>% setView(10, 51, zoom = 8)
+
 My name is Inigo Montoya. I have the following qualities:
 
 - I rock a great mustache
